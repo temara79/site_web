@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Site web</title>
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<h1 id="titre_site">Site web</h1>
+				<h3 id="sous-titre">un essai minimaliste</h3>
+				<table>
+					<tr>
+						<td>Adresse e-mail</td>
+						<td>Mot de passe</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="email" value="email" /></td>
+						<td><input type="password" name="password" value="1234" /></td>
+						<td><input type="submit" name="connexion" value="connexion" /></td>
+					</tr>
+					<tr>
+						<td><input type="checkbox" name="save_session" value="" /><label for="save_session">Garder ma session active</label></td>
+						<td><a href="#">Mot de passe oublié ?</a></td>
+					</tr>
+				</table>
+			</header>
+			<nav id="menu">
+				<ul>
+					<li><a href="#">Accueil</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+			<div id="sidebar">
+				<p>Liens favoris</p>
+				<a href="www.openclassrooms.com">Openclassrooms</a>
+				</br>
+				<p>Newsletter</p>
+				<form method="post" action="#">
+					<input type="text" name="email" value="Saisissez ici votre email" />
+					<input type="submit" name="envoi" value="valider" />
+				</form>
+			</div>
+			<div id="content">
+				<article class="news">
+					<h3>Titre news 1</h3>
+					<h5>Date</h5>
+					<p>Résumé de l'article</p>
+					<img src="#" />
+				</article>
+				<article class="news">
+					<h3>Titre news 2</h3>
+					<h5>Date</h5>
+					<p>Résumé de l'article</p>
+					<img src="#" />
+				</article>
+			</div>
+			<footer>
+				<p>©2016, temara79 - <a href="#">Contact</a></p>
+			</footer>
+		</div>
+	</body>
+</html>
